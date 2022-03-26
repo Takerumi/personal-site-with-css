@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Lora", serif;
+  background-color: #f7e2e2;
+  color: #40514e;
+}
+
+h1 {
+  color: #a4dafa;
+  font-family: "Dancing Script", cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #5b7db1;
+  font-weight: normal;
+  margin-top: 50px;
+  text-shadow: #1a132f 0 0 2px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  margin: 40px auto;
+  color: #5b7db1;
+}
+
+p {
+  line-height: 1.7;
+}
+
+hr {
+  border-top: dotted 5px #61a4bc;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 10%;
+}
+
+.top-container {
+  background-color: #61a4bc;
+  position: relative;
+  padding-top: 100px;
+}
+
+.mountain {
+  position: relative;
+  top: 0.2em;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 150px;
+  top: 80px;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 150px;
+  bottom: 300px;
+}
+
+.profile-photo {
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 80px auto;
+  text-align: left;
+}
+
+.skill-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.profile {
+  margin: 80px auto;
+}
+
+.contact-me {
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #5b7db1;
+  padding: 40px 0 20px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.footer-link {
+  color: #425b80;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-link:hover {
+  color: #f7e2e2;
+}
+
+.copyright {
+  color: #f7e2e2;
+  font-size: 0.8rem;
+  padding: 20px 0;
+  /* margin: 20px auto 0; */
+  /* position: relative;
+    top: 3em; */
+}
+
+.contact-btn {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #61a4bc 5%, #5b7db1 100%);
+  background-color: #61a4bc;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #f7e2e2;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+.contact-btn:hover {
+  background: linear-gradient(to bottom, #5b7db1 5%, #61a4bc 100%);
+  background-color: #5b7db1;
+}
+.contact-btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.contact-message {
+    width: 52%;
+    margin: 40px auto 60px;
+  }
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
